@@ -1,4 +1,4 @@
-[01:11, 12/09/2024] .: #include <iostream>
+#include <iostream>
 
 int main() {
     int numero;
@@ -14,4 +14,3 @@ int main() {
 
     return 0;
 }
-[01:11, 12/09/2024] .: 
