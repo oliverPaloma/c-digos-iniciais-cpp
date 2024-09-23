@@ -42,7 +42,10 @@ std::vector<ComponenteQuimico> lerArquivo(const std::string& nomeArquivo) {
 }
 
 int main() {
-    const std::string nomeArquivo = "properties";
+    const std::string nomeArquivo = "properties";// até funciona se executar pelo terminal e o arquivo estiver na mesma pasta que o leitor.cpp
+    //colocar o endereço do arquivo como mostra abaixo
+    //const std::string nomeArquivo = "/home/paloma-j-oliveira/Área de trabalho/properties";
+
     std::vector<ComponenteQuimico> componentes = lerArquivo(nomeArquivo);
 
     // Exibe os componentes lidos
